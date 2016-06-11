@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="project1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/project1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+					<Add library="../../../../include/Simple OpenGL Image Library/lib/libSOIL.a" />
+					<Add library="../../../../include/glew-1.13.0/lib/Release/Win32/glew32s.lib" />
+					<Add library="../../../../Program Files/Microsoft SDKs/Windows/v7.1/Lib/OpenGL32.Lib" />
+					<Add library="../../../../include/glfw-3.2.bin.WIN32/lib-mingw/libglfw3.a" />
+					<Add library="C:/MinGW/lib/libgdi32.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/project1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/ElementBuffer.h" />
+		<Unit filename="include/VertexArray.h" />
+		<Unit filename="include/VertexBuffer.h" />
+		<Unit filename="include/Window.h" />
+		<Unit filename="src/ElementBuffer.cpp" />
+		<Unit filename="src/Untitled2.cpp" />
+		<Unit filename="src/VertexArray.cpp" />
+		<Unit filename="src/VertexBuffer.cpp" />
+		<Unit filename="src/Window.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

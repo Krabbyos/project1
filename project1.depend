@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1464791881 source:e:\kelvin\documents\codeblocksprojects\project1\main.c
+	<stdio.h>
+
+1465593183 source:e:\kelvin\documents\codeblocksprojects\project1\untitled2.cpp
+	<stdio.h>
+	<chrono>
+	<cmath>
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<SOIL.h>
+	<glm.hpp>
+	"Window.h"
+
+1465593972 source:e:\kelvin\documents\codeblocksprojects\project1\src\window.cpp
+	<iostream>
+	"Window.h"
+
+1465593972 e:\kelvin\documents\codeblocksprojects\project1\include\window.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1465593972 source:e:\kelvin\documents\codeblocksprojects\project1\src\vertexarray.cpp
+	"VertexArray.h"
+
+1465593972 e:\kelvin\documents\codeblocksprojects\project1\include\vertexarray.h
+	<GL/glew.h>
+
+1465452390 source:e:\kelvin\documents\codeblocksprojects\project1\src\shader.cpp
+	"Shader.h"
+
+1465452343 e:\kelvin\documents\codeblocksprojects\project1\include\shader.h
+	<GLFW/glfw3.h>
+
+1465591365 source:e:\kelvin\documents\codeblocksprojects\project1\src\inputhandler.cpp
+	"InputHandler.h"
+
+1465591372 e:\kelvin\documents\codeblocksprojects\project1\include\inputhandler.h
+	<map>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1465593972 source:e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\src\vertexarray.cpp
+	"VertexArray.h"
+
+1465593972 e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\include\vertexarray.h
+	<GL/glew.h>
+
+1465593972 source:e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\src\window.cpp
+	<iostream>
+	"Window.h"
+
+1465593972 e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\include\window.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1465617007 source:e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\untitled2.cpp
+	<stdio.h>
+	<chrono>
+	<cmath>
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<SOIL.h>
+	<glm.hpp>
+	"Window.h"
+	"VertexArray.h"
+	"ElementBuffer.h"
+	"VertexBuffer.h"
+
+1465617007 source:e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\src\elementbuffer.cpp
+	"ElementBuffer.h"
+
+1465617007 e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\include\elementbuffer.h
+	<GL/glew.h>
+
+1465615545 source:e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\src\vertexbuffer.cpp
+	"VertexBuffer.h"
+
+1465615465 e:\kelvin\documents\codeblocksprojects\krabbyos-project1-e372698ffd1c\include\vertexbuffer.h
+	<GL/glew.h>
+
+1465617007 source:e:\kelvin\documents\codeblocksprojects\project1\src\elementbuffer.cpp
+	"ElementBuffer.h"
+
+1465617007 e:\kelvin\documents\codeblocksprojects\project1\include\elementbuffer.h
+	<GL/glew.h>
+
+1465615545 source:e:\kelvin\documents\codeblocksprojects\project1\src\vertexbuffer.cpp
+	"VertexBuffer.h"
+
+1465615465 e:\kelvin\documents\codeblocksprojects\project1\include\vertexbuffer.h
+	<GL/glew.h>
+
